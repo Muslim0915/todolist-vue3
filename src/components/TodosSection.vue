@@ -26,7 +26,7 @@ import {useI18n} from "vue-i18n";
         <AppButton
             v-else
             :label="t('create')"
-            class="bg-black hover:bg-transparent hover:text-black border-black"
+            class="bg-black hover:bg-transparent hover:text-black border-black uppercase tracking-widest font-bold"
             @click="store.openCreateModal()"
             @keyup.ctrl = "store.openCreateModal()"
         />
